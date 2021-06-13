@@ -7,8 +7,12 @@
     <title>@yield('title', 'Website is Mine 61234036')</title>
 </head>
 <body>
-    <b><center>
+    <b><center>DAY 1 <br>
         <a href="/">Main</a> | <a href="/about">About</a> | <a href="/contact">Contact</a> | <a href="/calculator/sum/15/23">Calculator</a>
+    </center></b>
+    <hr>
+    <b><center>DAY 2 <br>
+        <a href="/insert_activity">Activity</a>
     </center></b>
     <hr>
     @yield('content')
